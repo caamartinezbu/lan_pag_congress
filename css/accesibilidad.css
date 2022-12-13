@@ -439,6 +439,7 @@ main.accesibility-on {
     width: 100%;
     left: 0;
     background-color: transparent;
+    position: absolute;
 }
 /*ajuste para el desplegable*/
 main.home {

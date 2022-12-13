@@ -31,7 +31,20 @@
 }
 
 body {
-	background-color: #ddd; font-family: "Ancizar sans", Tahoma, Geneva, sans-serif; display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; min-height: 100vh; -webkit-box-direction: normal; -webkit-box-orient: vertical; -webkit-flex-direction: column; -moz-flex-direction: column; -ms-flex-direction: column; flex-direction: column; overflow-y: scroll;
+	/*background-color: #ddd; */
+	background-color: #fff;
+	font-family: "Ancizar sans",
+	 Tahoma, Geneva, sans-serif;
+	  display: -webkit-box; display: -webkit-flex; 
+	  display: -moz-flex; display: -ms-flexbox; 
+	  display: flex; min-height: 100vh; 
+	  -webkit-box-direction: normal; 
+	  -webkit-box-orient: vertical; 
+	  -webkit-flex-direction: column; 
+	  -moz-flex-direction: column;
+	   -ms-flex-direction: column;
+	    flex-direction: column; 
+		overflow-y: scroll;
 }
 
 
@@ -134,7 +147,10 @@ ul, ol {margin-left: 1.2em;}
 }
 
 ul.dropdown-menu {
-	min-width: 54px; background: #333; border-color: #222; padding: 0;
+	min-width: 190px;
+	 background: #aa006ce8; ;
+	  border-color: #aa006ce8;; 
+	  padding: 0;
 }
 
 ul.dropdown-menu a {
@@ -144,7 +160,7 @@ ul.dropdown-menu a {
 ul.dropdown-menu a:hover,
 ul.dropdown-menu a:active,
 ul.dropdown-menu a:focus {
-	background: #4b4b4b; color: white;
+	background: #b93689; color: white;
 }
 
 #unalTop {
@@ -169,12 +185,13 @@ ul.dropdown-menu a:focus {
 }
 
 #unalTop .btn-group .btn .caret {
-	border-top-color: #94b43b; margin-left: 6px;
+	border-top-color: #ffffff; margin-left: 6px;
 }
 
 #unalTop .btn-group:hover,
 #unalTop .btn-group.open {
-	background-color: #666; border-color: #333;
+	background-color: #b93689; ;
+	 border-color: #b93689;
 }
 
 #unalTop .seal {
@@ -411,7 +428,9 @@ table.gsc-completion-container {
 }
 
 #unalTop .navigation .mainMenu {
-	clear: both; margin: 0 0 0 240px;
+	clear: both; 
+	margin: 0 0 0 240px;
+	background: #AA006C;
 }
 
 #unalTop .navigation .mainMenu .btn-group:last-child {
@@ -419,7 +438,7 @@ table.gsc-completion-container {
 }
 
 #unalTop .navigation .mainMenu .btn-group:last-child .caret {
-	border-top-color: #94b43b!important;
+	border-top-color: #ffffff!important;
 }
 
 #unalTop .navigation .mainMenu .btn-group ul.dropdown-menu {
