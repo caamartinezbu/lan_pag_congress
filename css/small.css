@@ -1,5 +1,21 @@
 @media (max-width: 480px) {
-  
+    .container{
+        top: 152px;
+}
+.clock {
+display: inline-block;
+font-size: 0.8em;
+list-style-type: none;
+padding: 0.4em;
+text-transform: uppercase;
+}
+li.clock span {
+display: block;
+font-size: 2.4rem;
+padding: 12px;
+color: #AA006C;
+font-weight: 600;
+}
 }
 
 

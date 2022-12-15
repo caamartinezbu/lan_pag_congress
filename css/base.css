@@ -1,5 +1,5 @@
 .masthead {
-    height: 100vh;
+    height: 90vh; /* media querys*/
     width: 100%;
     min-height: 500px;
     background-image: url('../images/bannerppl-congreso2.png') ;
@@ -10,9 +10,20 @@
     margin-bottom: 60px;
   }
 
-  .fw-light{
+  .title-baner{
+    position: absolute;
+    bottom:100px;
+    text-align: center;
+  }
+  .super-heading{
     color: #fff;
+    font-size: 40px;
     text-transform: uppercase;
+    font-family: 'Ancizar sans';
+  }
+
+  .super-heading .ppl{
+    font-size: 55px;
   }
   .text-baner{
     color: #dfb315;
@@ -20,11 +31,13 @@
   }
   .txt-muted{
     color: #ffffffbd;
-    font-size: 28px;
+    font-size: 35px;
     text-transform: uppercase;
     font-weight: 100;
   }
-
+.txt-muted-2{
+    font-weight: 100;
+}
 
 
   .title-heading {
@@ -41,12 +54,22 @@ margin-bottom: 120px;
 
 }
 section.sect-wh{
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
 background: #fff;
-margin: 50px 0px 50px 0px;
+padding: 0 40px;
+}
+
+section.gr{
+    background: #ddd !important;
 }
 .espacio{
     height: 200px;
-    margin: 50px 0px 50px 0px;
+  
   
 }
     
@@ -54,11 +77,73 @@ margin: 50px 0px 50px 0px;
 vertical-align: super;
 }
 
-.title-baner{
-  position: absolute;
-  bottom: 190px;
-  margin-left: 140px;
-  text-align: center;
+/*
+=======================================================
+CUENTA ATRAS
+========================================================*/
+
+
+
+#headline{
+ 
+ 
 }
+
+
+
+.container  {
+   margin: 0 auto;
+  text-align: center;
+  color: #8f8f8f;
+  position: absolute;
+  width: 100%;
+  top: 130px;
+
+}
+.container h1{
+  font-family: 'Ancizar sans';
+}
+
+
+.clock {
+  display: inline-block;
+  font-size: 1em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li.clock span {
+  display: block;
+  font-size: 3rem;
+  color:  #AA006C ;
+  padding: 12px;
+
+}
+
+.emoji {
+  display: none;
+  padding: 1rem;
+}
+
+.emoji span {
+  font-size: 4rem;
+  padding: 0 .5rem;
+}
+
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: calc(1.5rem * var(--smaller));
+  }
+  
+  li {
+    font-size: calc(1.125rem * var(--smaller));
+  }
+  
+  li span {
+    font-size: calc(3.375rem * var(--smaller));
+  }
+}
+
 
 

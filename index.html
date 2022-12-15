@@ -40,14 +40,8 @@
 	<link rel="stylesheet" type="text/css" href="css/printer.css" media="print">
 
 
-	<script src="js/jquery.js" type="text/javascript"></script>
-	<script src="js/unal.js" type="text/javascript"></script>
-	<script src="js/accesibilidad.js" type="text/javascript"></script>
-	<!--[if lt IE 9]><script src="js/html5shiv.js" type="text/javascript"></script><![endif]-->
-	<!--[if lt IE 9]><script src="js/respond.js" type="text/javascript"></script><![endif]-->
 
-
-	<title>Inicio: Universidad Nacional de Colombia</title>
+	<title>Congreso de Innovación Académica</title>
 </head>
 
 <body>
@@ -140,7 +134,7 @@
 		</div>
 		<div id="bs-navbar" class="navbar-collapse collapse navigation">
 			<div class="site-url">
-				<a href="http://subdominio.unal.edu.co/">subdominio.unal.edu.co</a>
+				<a href="http://subdominio.unal.edu.co/">innovacademica.manizales.unal.edu.co</a>
 			</div>
 			<div class="buscador">
 				<div class="gcse-searchbox-only" data-resultsUrl="http://unal.edu.co/resultados-de-la-busqueda/"
@@ -154,9 +148,9 @@
 						<li><a href="#">Página 2</a></li>
 					</ul>
 				</div>-->
-				<div class="btn-group"><a href="index.html#"
+				<div class="btn-group"><a href="#section-1"
 						class="btn btn-default dropdown-toggle">Descripción</a><span class="caret-right"></span></div>
-				<div class="btn-group"><a href="index.html#" class="btn btn-default dropdown-toggle">Ejes
+				<div class="btn-group"><a href="#section-2" class="btn btn-default dropdown-toggle">Ejes
 						tematicos</a><span class="caret-right"></span></div>
 				<div class="btn-group"><a href="index.html#"
 						class="btn btn-default dropdown-toggle">conferencistas</a><span class="caret-right"></span>
@@ -204,15 +198,40 @@
 				</div>
 			</div>
 		</div>
+
+
+
 		<!-- intro image 
 =========================================================================0-->
 		<div class="masthead ">
+			<div class="container clock-ppl">
+				<div class="row">
+					<div class="col-lg-2 col-md-2 col-sm-2"></div>
+					<div class="col-lg-8 col-md-8 col-sm-8">
+						<h1 id="headline">Faltan</h1>
+						<div id="countdown">
+						  <ul>
+							<li class="clock"><span id="days"></span>Días</li>
+							<li class="clock"><span id="hours"></span>Horas</li>
+							<li class="clock"><span id="minutes"></span>Minutos</li>
+							<li class="clock"><span id="seconds"></span>Secondos</li>
+						  </ul>
+							</div>
+	
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2"></div>
+				</div>
+				
+			</div> 
 			
 		<div class=" title-baner ">
-			<div class="row  align-items-center">
+			
+		
+			
+				<div class="row  align-items-center">
 			  <div class="col-md-1 col-lg-1"></div>
 			  <div class="col-md-10 col-lg-10 col-sm-12">
-				<h1 class="fw-light"><b class="txt-muted">  Congreso de</b> <b>Innovación Académica</b> <b class="txt-muted">para la </b>Permanencia en Educación Superior </h1>
+				<h1 class="super-heading"><b class="txt-muted">  Congreso de</b> <span class="ppl" >Innovación Académica</span> <b class="txt-muted"> para la </b> <span class="txt-muted-2">Permanencia en Educación Superior</span>  </h1>
 				<p class="text-baner">3 al 5 de mayo de 2023</p>
 			  </div>
 				  <div class="col-md-1 col-lg-1"></div>
@@ -283,30 +302,23 @@
 
 
 
-	<!---:::::::::::::::: content body :::::::::::::::::::::::::-->
+	<!---:::::::::::::::: content body :::::::::::::::::::::::::
+	<main class="detalle">-->
+	
+	<!--    =================================================================
+										DESCRIPCION	
+		    ================================================================= -->
 
-	<!-- Full Page Image Header with Vertically Centered Content -->
-
-	<main class="detalle">
-
-
-
-		<!-- Marketing messaging and featurettes
-	  ================================================== -->
-		<!-- Wrap the rest of the page in another container to center all the content. -->
-
-		
-
-			<!-- Three columns of text below the carousel -->
-			
+			<section id="section-1" class="sect-wh">
 			<div class="row">
 			
 				
 				<div class="col-lg-12 col-md-12">
-					<section class="sect-wh">
+					
 						<h2 class="title-heading"><span>____ </span>DESCRIPCIÓN<span> ____</span></h2>
 					
-
+					
+							
 					<p class="txt-art">
 						El Congreso de Innovación Académica para la Permanencia en Educación Superior,
 						liderado por la Dirección Académica de la Universidad Nacional de Colombia sede Manizales,
@@ -331,13 +343,17 @@
 						aprendizaje.
 
 					</p>
-				</section>
+			
 				</div><!-- /.col-lg-12 -->
 			
 			</div><!-- /.row -->
+		</section>
 		
 
-			<!-- START THE FEATURETTES -->
+					<!-- 
+			=================================================================
+										ESPACIO
+		    ================================================================= -->
 <div class="row">
 	<div class="col-lg-12">
 		<div class="espacio">
@@ -347,8 +363,12 @@
 	</div>
 </div>
 		
-			<section class="sect-wh">
-			<div class="row featurette">
+			<!-- 
+			=================================================================
+										OBJETIVO	
+		    ================================================================= -->
+			<section class="sect-wh gr" id="section-2">
+			<div class="row ">
 				<div class="col-md-5">
 					<img class="featurette-image img-responsive center-block" 
 						alt="500x500"
@@ -359,6 +379,11 @@
 					<h2 class="featurette-heading">OBJETIVO </h2>
 					<p class="lead">Propiciar un espacio para la reflexión sobre prácticas y experiencias en torno a la innovación académica y la permanencia en la educación superior.
 						.</p>
+						<P class="lead">&#8226; Reconocer las perspectivas pedagógicas contemporáneas en el ámbito de la educación superior.</P>
+						<P class="lead"> &#8226; Dar a conocer iniciativas relacionadas con innovación académica aplicable en áreas STEAM.</P>
+						<P class="lead">&#8226; Dialogar en torno a prácticas y estrategias relacionadas con los procesos de autoevaluación y acreditación de programas curriculares a nivel nacional. </P>
+
+
 				</div>
 				
 			</div>
@@ -367,14 +392,7 @@
 
 
 
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="espacio">
-					
-				</div>
-				
-			</div>
-		</div>
+		
 		
 <!--
 			<hr class="featurette-divider">
@@ -414,7 +432,8 @@
 
 			<hr class="featurette-divider">
 		-->
-		<!-- /END THE FEATURETTES -->
+		<!-- /END THE FEATURETTES
+		</main> -->
 
 
 
@@ -422,7 +441,7 @@
 
 
 
-	</main>
+	
 
 	<footer class="clear">
 		<nav class="col-md-3 col-lg-3 col-sm-3 col-xs-4 col-xxs-6 gobiernoLinea">
@@ -490,6 +509,15 @@
 
 		</div>
 	</footer>
+	
+	<script src="js/jquery.js" type="text/javascript"></script>
+	<script src="js/unal.js" type="text/javascript"></script>
+	<script src="js/accesibilidad.js" type="text/javascript"></script>
+	<script src="js/countdown.js" type="text/javascript"></script>
+
+	<!--[if lt IE 9]><script src="js/html5shiv.js" type="text/javascript"></script><![endif]-->
+	<!--[if lt IE 9]><script src="js/respond.js" type="text/javascript"></script><![endif]-->
+
 </body>
 
 </html>

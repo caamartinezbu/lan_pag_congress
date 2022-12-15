@@ -30,6 +30,10 @@
 	font-family: 'Ancizar serif'; font-weight: normal; font-style: normal; src: url("../fonts/ancizarserif_regular-webfont.eot"), url("../fonts/ancizarserif_regular-webfont.eot?#iefix") format('embedded-opentype'), url("../fonts/ancizarserif_regular-webfont.woff") format('woff'), url("../fonts/ancizarserif_regular-webfont.ttf") format('truetype'), url("../fonts/ancizarserif_regular-webfont.svg#ancizar_sansbold_italic") format('svg');
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
 body {
 	/*background-color: #ddd; */
 	background-color: #fff;
