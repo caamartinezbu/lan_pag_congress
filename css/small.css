@@ -1,31 +1,47 @@
 @media (max-width: 480px) {
-    .container{
+    .container {
         top: 152px;
-}
-.clock {
-display: inline-block;
-font-size: 0.8em;
-list-style-type: none;
-padding: 0.4em;
-text-transform: uppercase;
-}
-li.clock span {
-display: block;
-font-size: 2.4rem;
-padding: 12px;
-color: #AA006C;
-font-weight: 600;
-}
+    }
+
+    .clock {
+        display: inline-block;
+        font-size: 0.8em;
+        list-style-type: none;
+        padding: 0.4em;
+        text-transform: uppercase;
+    }
+
+    li.clock span {
+        display: block;
+        font-size: 2.4rem;
+        padding: 12px;
+        color: #AA006C;
+        font-weight: 600;
+    }
+
+
 }
 
 
 @media (max-width: 767px) {
-  
+
+    .txt-muted {
+        font-size: 20px;
+
+    }
+
+    .super-heading .ppl {
+        font-size: 35px;
+    }
+
+    .super-heading {
+        font-size: 25px;
+
+    }
+
 }
 
 
 @media (min-width: 768px) {
-  
+
 }
-
-
