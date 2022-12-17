@@ -1,4 +1,10 @@
 @media (max-width: 480px) {
+
+
+    section.sect-wh {
+    
+        height: 115vh;
+        }
     .container {
         top: 152px;
     }
@@ -18,12 +24,22 @@
         color: #AA006C;
         font-weight: 600;
     }
+    .title-baner {
+        
+        bottom: 65px;
+       
+    }
 
 
 }
 
 
 @media (max-width: 767px) {
+    .masthead {
+        height: 92vh;
+        margin-bottom: 40px;
+    }
+
 
     .txt-muted {
         font-size: 20px;
@@ -39,9 +55,37 @@
 
     }
 
+    .tx-unal-accesibilidad {
+        top: 55px;
+    }
+
+    #pestania-accesibilidad {
+        margin-right: 0px;
+    }
+
+    .txt-art {
+        font-size: 18px;
+        line-height: 1.2;
+        margin: 30px 0px 30px 0px;
+
+    }
+    .txt-art-2{
+        font-size: 18px;
+      
+        font-weight: 200;
+        line-height: 1.2;
+        text-align: justify;
+        margin: 30px 0px 30px 0px;
+      
+      }
+
+    .title-heading {
+
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+
 }
 
 
-@media (min-width: 768px) {
-
-}
+@media (min-width: 768px) {}

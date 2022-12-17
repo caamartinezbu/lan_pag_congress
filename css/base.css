@@ -44,17 +44,33 @@
 
   .title-heading {
 text-align: center;
-margin-bottom: 120px;
+font-size: 50px;
+font-weight: 600;
+font-family: 'Ancizar sans';
 
     }
 .txt-art{
-    font-size: 21px;
-    margin: 50px 0px 50px 0px;
+    font-size: 24px;
+    margin: 120px 0px 50px 0px;
     font-weight: 200;
     line-height: 1.4;
     text-align: justify;
 
 }
+
+.txt-art-2{
+  font-size: 24px;
+
+  font-weight: 200;
+  line-height: 1.4;
+  text-align: justify;
+
+}
+section{
+  color:  #1B4C5C;
+  font-family: 'Ancizar sans';
+}
+
 section.sect-wh{
 width: 100%;
 height: 100vh;
@@ -69,13 +85,8 @@ padding: 0 40px;
 section.gr{
     background: #ddd !important;
 }
-.espacio{
-    height: 200px;
-  
-  
-}
     
-.row h2 span{
+.row h1 span{
 vertical-align: super;
 }
 
@@ -146,6 +157,73 @@ li.clock span {
     font-size: calc(3.375rem * var(--smaller));
   }
 }
+
+
+/*==========================================
+progres bar
+=============================================*/
+#progress {
+	position: fixed;
+	z-index: 10;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 3px;
+	transform-origin: 0 50%;
+	transform: scaleX(0);
+	background: #aa006c;
+}
+
+@supports (animation-timeline: scroll()) {
+	/* Hide warning */
+	.warning {
+		display: none;
+	}
+}
+
+
+
+/*==========================================
+carousel text
+=============================================*/
+
+
+.quote {
+  color: rgba(0,0,0,.1);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+#fade-quote-carousel.carousel {
+  padding-bottom: 60px;
+}
+#fade-quote-carousel.carousel .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-inner .active {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-indicators {
+  bottom: 10px;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+  background-color: #e84a64;
+  border: none;
+}
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+}
+
+
+
 
 
 
