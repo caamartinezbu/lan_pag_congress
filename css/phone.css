@@ -1,5 +1,14 @@
 @media (min-width: 768px) and (max-width: 991px) {
-  
+    .card {
+        width: 250px;
+        height: 330px;
+        }
+
+        .title-gen {
+            position: relative;
+            top: 0px;
+            left: -250px;
+        }
 }
 
 

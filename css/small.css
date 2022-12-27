@@ -3,10 +3,17 @@
 
     section.sect-wh {
     
-        height: 115vh;
+        height: 140vh;
         }
     .container {
         top: 152px;
+    }
+    .title-gen-des {
+     
+        margin-top: 60px;
+    }
+    .obj-carousel {
+        height: 412px !important;
     }
 
     .clock {
@@ -20,13 +27,13 @@
     li.clock span {
         display: block;
         font-size: 2.4rem;
-        padding: 12px;
+        padding: 11px;
         color: #AA006C;
         font-weight: 600;
     }
     .title-baner {
         
-        bottom: 65px;
+        bottom: 20px;
        
     }
 
@@ -37,7 +44,8 @@
 @media (max-width: 767px) {
     .masthead {
         height: 92vh;
-        margin-bottom: 40px;
+       /* margin-bottom: 40px; */
+       margin-bottom: 0px;
     }
 
 
@@ -84,6 +92,41 @@
         font-size: 20px;
         margin-bottom: 0px;
     }
+
+    #unalTop .navigation .mainMenu {
+  
+        background: #333;
+    }
+
+    #unalTop .navigation.collapse.in {
+        z-index: 4;
+    }
+    section.sect-card {
+  
+        height: auto; 
+        }
+        .title-gen {
+            margin-bottom: 25px;
+            position: relative;
+            margin-top: 20px;
+            top: 0;
+            left:0;
+        }
+        .quote {
+   
+            margin-bottom: 0px;
+        }
+        .title-gen-des h1 {
+            font-size: 35px;
+           }
+           .title-gen h1 {
+            font-size: 35px;
+           }
+
+           .obj-carousel{
+            height: 345px;
+           }
+        
 
 }
 

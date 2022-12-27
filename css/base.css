@@ -2,7 +2,7 @@
     height: 90vh; /* media querys*/
     width: 100%;
     min-height: 500px;
-    background-image: url('../images/bannerppl-congreso2.png') ;
+    background-image: url('../images/bannerppl-congreso2.jpg') ;
     background-size: cover;
    /* background-size:100% 100%; fijas*/
     background-position: center;
@@ -41,6 +41,26 @@
     font-weight: 100;
 }
 
+.title-gen {
+  position: relative;
+  top: -86px;
+  left: 76px;
+}
+.title-gen-des{
+  position: relative;
+  left: 0px;
+}
+.title-gen-des h1{
+  font-size: 50px;
+  font-weight: 600;
+  font-family: 'Ancizar sans';
+}
+
+.title-gen h1{
+  font-size: 50px;
+  font-weight: 600;
+  font-family: 'Ancizar sans';
+}
 
   .title-heading {
 text-align: center;
@@ -50,8 +70,8 @@ font-family: 'Ancizar sans';
 
     }
 .txt-art{
-    font-size: 24px;
-    margin: 120px 0px 50px 0px;
+    font-size: 23px;
+    margin: 70px 0px 50px 0px;
     font-weight: 200;
     line-height: 1.4;
     text-align: justify;
@@ -59,8 +79,8 @@ font-family: 'Ancizar sans';
 }
 
 .txt-art-2{
-  font-size: 24px;
-
+  font-size: 23px;
+  margin-bottom: 25px;
   font-weight: 200;
   line-height: 1.4;
   text-align: justify;
@@ -92,10 +112,10 @@ section.sect-card {
   align-items: center;
   background: #fff;
   padding: 40px;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-content: space-around;
   justify-content: center;
+}
+.dv-gen-cen{
+  width: 100%;
 }
     
 .row h1 span{
@@ -217,6 +237,9 @@ carousel text
   text-align: center;
   margin-bottom: 100px;
 }
+.obj-carousel{
+  height: 345px;
+ }
 
 
 #fade-quote-carousel.carousel {
@@ -268,12 +291,18 @@ Cards tematicas
   width: 300px;
   height: 350px;
   margin-bottom: 20px;
+  -webkit-box-shadow: 13px 11px 21px -10px rgba(0,0,0,0.75);
+-moz-box-shadow: 13px 11px 21px -10px rgba(0,0,0,0.75);
+box-shadow: 13px 11px 21px -10px rgba(0,0,0,0.75);
 }
 .card .caption{
   margin-top: 25px;
   text-align: center;
+  color: #1B4C5C
+  ;
 
 }
+
 
 .card .bg-head{
   display: block;
@@ -284,6 +313,12 @@ Cards tematicas
   border-top-right-radius: 1rem;
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+
+.ppl-space{
+  display: flex;
   justify-content: center;
 }
 
