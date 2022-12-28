@@ -2,8 +2,7 @@
 
 
     section.sect-wh {
-    
-        height: 140vh;
+        height: auto;
         }
     .container {
         top: 152px;
@@ -126,7 +125,50 @@
            .obj-carousel{
             height: 345px;
            }
+           section.sect-middle {
+            height: auto;
+        }
+        section.sect-middle2 {
+            
+            height: auto;
+        }
+        .card {
+            width: 280px;
+            height: 227px;
+            margin-bottom: 20px;
+        }
+
+        .card .bg-head {
+           height: 120px;
+        }
+
+        .card-img{
+            width: 27%;
+        }
         
+        .card-img2{
+            width: 40%;
+        }
+
+        .card .caption {
+            margin-top: 16px;
+         
+        }
+
+        .caption h3{
+            font-size: 19px !important;
+        }
+        section {
+           
+            padding: 40px 30px !important;
+        }
+        .txt-art-pon {
+            font-size: 19px;
+            text-align: left;
+        }
+        .title-gen p {
+            font-size: 19px;
+        }
 
 }
 
