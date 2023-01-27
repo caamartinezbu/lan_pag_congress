@@ -169,6 +169,19 @@
         .title-gen p {
             font-size: 19px;
         }
+        .card-conf {
+            width: 310px;
+            height: 380px;
+            margin-bottom: 55px;
+            margin-top: 58px;
+        }
+        .card-conf .caption-conf h5{
+            font-size: 15px;
+          }
+          .obj-img{
+            height: 180px; 
+            margin-top: 30px;
+          }
 
 }
 
