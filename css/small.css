@@ -12,6 +12,7 @@
     .title-gen-des {
 
         margin-top: 60px;
+        left: 10px;
     }
 
     .obj-carousel {
@@ -123,7 +124,7 @@
         position: relative;
         margin-top: 20px;
         top: 0;
-        left: 0;
+        left: 13px;
     }
 
     .quote {
@@ -213,6 +214,11 @@
     .img-schedule {
         width: 100%;
 
+    }
+
+    .txt-art-ins {
+        font-size: 19px;
+        text-align: justify;
     }
 
 

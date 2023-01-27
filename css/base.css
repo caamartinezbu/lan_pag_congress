@@ -597,3 +597,7 @@ Cards tematicas
   width: 80%;
 
 }
+
+.table-price {
+  border: 0px solid #ddd;
+}
