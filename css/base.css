@@ -48,11 +48,23 @@
 
 .title-gen {
   position: relative;
+  top: -30px;
+  right: -20px;
+}
+
+.title-gen2 {
+  position: relative;
   top: -70px;
   right: -20px;
 }
 
 .title-gen p {
+  font-size: 22px;
+  margin-top: 20px;
+  line-height: initial;
+}
+
+.title-gen2 p {
   font-size: 22px;
   margin-top: 20px;
   line-height: initial;
@@ -73,6 +85,14 @@
   font-size: 50px;
   font-weight: 600;
   font-family: 'Ancizar sans';
+  text-transform: uppercase;
+}
+
+.title-gen2 h1 {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: 'Ancizar sans';
+  text-transform: uppercase;
 }
 
 .title-h2-pon {
@@ -86,6 +106,8 @@
   font-family: 'Ancizar sans';
 
 }
+
+
 
 .txt-art {
   font-size: 23px;
@@ -108,6 +130,16 @@
 .txt-art-pon {
   font-size: 22px;
   color: #fff;
+  font-weight: 200;
+  line-height: 1.4;
+  text-align: justify;
+  padding: 0 16px;
+
+}
+
+.txt-art-ins {
+  font-size: 22px;
+  color: #1B4C5C;
   font-weight: 200;
   line-height: 1.4;
   text-align: justify;
@@ -148,6 +180,7 @@ section {
   color: #1B4C5C;
   font-family: 'Ancizar sans';
   padding: 40px 60px !important;
+  margin: 40px 0px;
 }
 
 section.sect-wh {
@@ -167,6 +200,16 @@ section.gr {
 section.sect-card {
   width: 100%;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 40px;
+  justify-content: center;
+}
+
+section.sect-open {
+  width: 100%;
+  height: auto;
   display: flex;
   align-items: center;
   background: #fff;
@@ -394,7 +437,7 @@ Cards tematicas
 
 .card-conf {
   width: 300px;
-  height: 350px;
+  height: 382px;
   margin-bottom: 20px;
   -webkit-box-shadow: 13px 11px 21px -10px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 13px 11px 21px -10px rgba(0, 0, 0, 0.75);
@@ -481,7 +524,7 @@ Cards tematicas
 .title-head-conf {
   position: relative;
   top: -35px;
-  padding: 0 20px;
+  padding: 0 16px;
 
   text-align: center;
 
@@ -499,6 +542,10 @@ Cards tematicas
   color: #1B4C5C;
 }
 
+.caption-conf h5 {
+  font-family: 'Ancizar sans' !important;
+}
+
 .title-head-conf h4 {
 
   font-family: 'Ancizar sans';
@@ -506,7 +553,6 @@ Cards tematicas
 
 .title-head-conf h5 {
   color: #ffffffad;
-  ;
   font-family: 'Ancizar sans';
 }
 
@@ -528,4 +574,26 @@ Cards tematicas
 .obj-img {
   height: 250px;
   margin-top: 50px;
+}
+
+/* agenda*/
+
+.schedule {
+  color: #AA006C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.schedule h2 {
+  margin-bottom: 20px;
+  font-family: 'Ancizar sans';
+  font-weight: 600;
+
+}
+
+.img-schedule {
+  width: 80%;
+
 }

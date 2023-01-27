@@ -3,14 +3,17 @@
 
     section.sect-wh {
         height: auto;
-        }
+    }
+
     .container {
         top: 152px;
     }
+
     .title-gen-des {
-     
+
         margin-top: 60px;
     }
+
     .obj-carousel {
         height: 412px !important;
     }
@@ -30,10 +33,11 @@
         color: #AA006C;
         font-weight: 600;
     }
+
     .title-baner {
-        
+
         bottom: 20px;
-       
+
     }
 
 
@@ -41,10 +45,17 @@
 
 
 @media (max-width: 767px) {
+
+
+    section {
+
+        padding: 40px 20px !important;
+    }
+
     .masthead {
         height: 92vh;
-       /* margin-bottom: 40px; */
-       margin-bottom: 0px;
+        /* margin-bottom: 40px; */
+        margin-bottom: 0px;
     }
 
 
@@ -76,15 +87,16 @@
         margin: 30px 0px 30px 0px;
 
     }
-    .txt-art-2{
+
+    .txt-art-2 {
         font-size: 18px;
-      
+
         font-weight: 200;
         line-height: 1.2;
         text-align: justify;
         margin: 30px 0px 30px 0px;
-      
-      }
+
+    }
 
     .title-heading {
 
@@ -93,95 +105,116 @@
     }
 
     #unalTop .navigation .mainMenu {
-  
+
         background: #333;
     }
 
     #unalTop .navigation.collapse.in {
         z-index: 4;
     }
+
     section.sect-card {
-  
-        height: auto; 
-        }
-        .title-gen {
-            margin-bottom: 25px;
-            position: relative;
-            margin-top: 20px;
-            top: 0;
-            left:0;
-        }
-        .quote {
-   
-            margin-bottom: 0px;
-        }
-        .title-gen-des h1 {
-            font-size: 35px;
-           }
-           .title-gen h1 {
-            font-size: 35px;
-           }
 
-           .obj-carousel{
-            height: 345px;
-           }
-           section.sect-middle {
-            height: auto;
-        }
-        section.sect-middle2 {
-            
-            height: auto;
-        }
-        .card {
-            width: 280px;
-            height: 227px;
-            margin-bottom: 20px;
-        }
+        height: auto;
+    }
 
-        .card .bg-head {
-           height: 120px;
-        }
+    .title-gen {
+        margin-bottom: 25px;
+        position: relative;
+        margin-top: 20px;
+        top: 0;
+        left: 0;
+    }
 
-        .card-img{
-            width: 27%;
-        }
-        
-        .card-img2{
-            width: 40%;
-        }
+    .quote {
 
-        .card .caption {
-            margin-top: 16px;
-         
-        }
+        margin-bottom: 0px;
+    }
 
-        .caption h3{
-            font-size: 19px !important;
-        }
-        section {
-           
-            padding: 40px 30px !important;
-        }
-        .txt-art-pon {
-            font-size: 19px;
-            text-align: left;
-        }
-        .title-gen p {
-            font-size: 19px;
-        }
-        .card-conf {
-            width: 310px;
-            height: 380px;
-            margin-bottom: 55px;
-            margin-top: 58px;
-        }
-        .card-conf .caption-conf h5{
-            font-size: 15px;
-          }
-          .obj-img{
-            height: 180px; 
-            margin-top: 30px;
-          }
+    .title-gen-des h1 {
+        font-size: 35px;
+    }
+
+    .title-gen h1 {
+        font-size: 35px;
+    }
+
+    .title-gen2 h1 {
+        font-size: 35px;
+    }
+
+    .obj-carousel {
+        height: 345px;
+    }
+
+    section.sect-middle {
+        height: auto;
+    }
+
+    section.sect-middle2 {
+
+        height: auto;
+    }
+
+    .card {
+        width: 280px;
+        height: 227px;
+        margin-bottom: 20px;
+    }
+
+    .card .bg-head {
+        height: 120px;
+    }
+
+    .card-img {
+        width: 27%;
+    }
+
+    .card-img2 {
+        width: 40%;
+    }
+
+    .card .caption {
+        margin-top: 16px;
+
+    }
+
+    .caption h3 {
+        font-size: 19px !important;
+    }
+
+
+
+    .txt-art-pon {
+        font-size: 19px;
+        text-align: left;
+    }
+
+    .title-gen p {
+        font-size: 19px;
+    }
+
+    .card-conf {
+        width: 310px;
+        height: auto;
+        margin-bottom: 55px;
+        margin-top: 58px;
+    }
+
+    .card-conf .caption-conf h5 {
+        font-size: 15px;
+    }
+
+    .obj-img {
+        height: 180px;
+        margin-top: 30px;
+    }
+
+    .img-schedule {
+        width: 100%;
+
+    }
+
 
 }
 
