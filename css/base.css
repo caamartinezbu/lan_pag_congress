@@ -138,13 +138,30 @@
 }
 
 .txt-art-ins {
-  font-size: 22px;
+  font-size: 19px;
+  color: #ffffff;
+  font-weight: 200;
+  line-height: 1.4;
+  text-align: justify;
+  padding: 0px 7px;
+}
+
+.txt-art-ins_2 {
+  font-size: 19px;
   color: #1B4C5C;
   font-weight: 200;
   line-height: 1.4;
   text-align: justify;
-  padding: 0 16px;
+  padding: 0px 7px;
+}
 
+.txt-art-ins-par {
+  font-size: 19px;
+  color: #1B4C5C;
+  font-weight: 200;
+  line-height: 1.4;
+  text-align: justify;
+  padding: 0px 7px;
 }
 
 .two a {
@@ -600,4 +617,77 @@ Cards tematicas
 
 .table-price {
   border: 0px solid #ddd;
+}
+
+
+/*======== pricing============*/
+
+
+
+.pricing-table-subtitle {
+  margin-top: 68px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.card-ins1 {
+  background: #AA006C;
+}
+
+.card-ins2 {
+  background: #E8A622;
+}
+
+.card-ins3 {
+  background: #1B4C5C
+}
+
+.pricing-card {
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  margin: 40px 16px;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+  -webkit-box-shadow: 13px 11px 21px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 13px 11px 21px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 13px 11px 21px -10px rgba(0, 0, 0, 0.75);
+}
+
+.pricing-card:hover {
+  box-shadow: 0 2px 40px 0 rgba(205, 205, 205, 0.55);
+  -webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+  -webkit-box-shadow: 13px 11px 21px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 13px 11px 21px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 13px 11px 21px -10px rgba(0, 0, 0, 0.75);
+}
+
+
+.card-body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+.pricing-plan-cost {
+  font-size: 50px;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 29px;
+}
+
+
+.pricing-plan-features {
+  list-style: none;
+  padding-left: 0;
+  font-size: 14px;
+  line-height: 2.14;
+  margin-bottom: 35px;
+  color: #fff;
+}
+
+.image_ins {
+  margin: 20px 0px;
 }
