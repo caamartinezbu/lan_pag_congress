@@ -2,9 +2,18 @@
     .card {
         width: 250px;
         height: 330px;
-        }
+    }
 
-  
+    .ppl-space-v2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+
+
+
+
 }
-
-
