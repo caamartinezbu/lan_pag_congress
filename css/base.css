@@ -691,3 +691,36 @@ Cards tematicas
 .image_ins {
   margin: 20px 0px;
 }
+
+ol {
+  list-style: inherit !important;
+}
+
+a.formulario {
+  display: block;
+  padding: 10px 0;
+  color: #1B4C5C;
+  width: 150px;
+  text-align: center;
+  border: 1px solid #dfb315;
+  ;
+  text-decoration: none;
+  border-radius: 50px;
+  background: #dfb315;
+  ;
+  margin: 20px 16px;
+  font-size: 20px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+a.formulario:hover {
+  transform: scale(1.1);
+
+  background-color: #1B4C5C;
+  border-color: #1B4C5C;
+  color: #fff;
+  font-size: 21px;
+
+
+}
