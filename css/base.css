@@ -128,7 +128,7 @@
 }
 
 .txt-art-pon {
-  font-size: 30px;
+  font-size: 35px;
   color: #fff;
   font-weight: 200;
   line-height: 1.4;
@@ -760,4 +760,13 @@ a.btn-documento:hover {
   font-size: 18px;
 
 
+}
+
+.volcan {
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.volcan:hover {
+  transform: scale(1.05);
 }
