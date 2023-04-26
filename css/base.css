@@ -770,3 +770,22 @@ a.btn-documento:hover {
 .volcan:hover {
   transform: scale(1.05);
 }
+
+.title-map h1 {
+  color: #1B4C5C;
+  ;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: 'Ancizar sans';
+  text-transform: uppercase;
+}
+
+.i4ewOd-pzNkMb-haAclf {
+  background-color: #2e312f1a !important;
+}
+
+.btn-pdf {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
