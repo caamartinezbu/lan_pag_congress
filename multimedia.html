@@ -38,8 +38,8 @@
     <link rel="stylesheet" type="text/css" href="css/phone.css" media="all">
     <link rel="stylesheet" type="text/css" href="css/small.css" media="all">
     <link rel="stylesheet" type="text/css" href="css/printer.css" media="print">
-
-
+    <link rel="stylesheet" href="css/nanogallery2.min.css">
+    <link rel="stylesheet" href="css/nanogallery2.woff.min.css">
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
 
@@ -242,10 +242,17 @@
 
 
                 <div class="row margen-src">
-                   <div class="col-md-3"> <img src="images/multimedia/Galería.png" width="80%"></div> 
-                   <div class="col-md-3"> <img src="images/multimedia/Diapositivas.png" width="80%"></div> 
-                   <div class="col-md-3"> <img src="images/multimedia/Conferencias.png" width="80%"></div> 
-                   <div class="col-md-3"> <img src="images/multimedia/Memorias.png" width="80%"></div> 
+
+
+
+
+                    <div class="col-md-3"><img id="my_nanogallery2" src="images/multimedia/Galería.png"
+                            data-ngsrc="images/multimedia/Apertra-1.jpg"
+                            data-nanogallery2-lightbox='{ "viewerGallery ": "none" }' width="80%" /></div>
+
+                    <div class="col-md-3"> <img src="images/multimedia/Diapositivas.png" width="80%"></div>
+                    <div class="col-md-3"> <img src="images/multimedia/Conferencias.png" width="80%"></div>
+                    <div class="col-md-3"> <img src="images/multimedia/Memorias.png" width="80%"></div>
 
                 </div>
             </div>
@@ -406,7 +413,30 @@
     <script src="js/unal.js" type="text/javascript"></script>
     <script src="js/accesibilidad.js" type="text/javascript"></script>
     <script src="js/scroll-timeline.js" type="text/javascript"></script>
+    <script src="js/jquery.nanogallery2.min.js" type="text/javascript"></script>
 
+
+    <script>
+        jQuery(document).ready(function () {
+            jQuery("#my_nanogallery2").nanogallery2({
+                items: [
+                    { src: 'Apertura-1.jpg', srct: 'Apertura-1.jpg', title: 'Día 1 - 03 de Mayo' },
+                    { src: 'Apertura-2.jpg', srct: 'Apertura-2.jpg', title: 'Berlin 2' },
+                    { src: 'Apertura-4.jpg', srct: 'Apertura-4.jpg', title: 'Berlin 2' },
+                    { src: 'Apertura-6.jpg', srct: 'Apertura-6.jpg', title: 'Berlin 2' },
+                    { src: 'Apertura-12.jpg', srct: 'Apertura-12.jpg', title: 'Berlin 2' }
+                    
+
+                ],
+                thumbnailWidth: 'auto',
+                thumbnailHeight: 100,
+                itemsBaseURL: 'http://127.0.0.1:5500/images/multimedia/',
+
+                locationHash: false
+            });
+        });
+
+    </script>
 
 
     <script>

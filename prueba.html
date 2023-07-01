@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/nanogallery2.min.css">
+    <link rel="stylesheet" href="css/nanogallery2.woff.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div><h1>hola Galeria</h1></div>
+
+
+
+
+
+<img id="my_nanogallery2"
+  src = "images/multimedia/thumbnail_d1_01.jpg"
+  data-ngsrc = "images/multimedia/Memorias.png" 
+  data-nanogallery2-lightbox = '{ "viewerGallery ": "none" }' 
+/>
+
+<script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/unal.js" type="text/javascript"></script>
+    <script src="js/accesibilidad.js" type="text/javascript"></script>
+
+<script src="js/jquery.nanogallery2.min.js" type="text/javascript"></script>
+
+
+<script>
+jQuery(document).ready(function () {
+  jQuery("#my_nanogallery2").nanogallery2({
+  	items:[
+      { src: 'Memorias.png', srct: 'thumbnail_d1_01.jpg', title: 'dia 1' },
+      { src: 'conferencias.png', srct: 'thumbnail_d1_02.jpg', title: 'Berlin 2' }
+		],
+    thumbnailWidth:  'auto',
+  	thumbnailHeight: 100,
+    itemsBaseURL:    'http://127.0.0.1:5500/images/multimedia/',
+    
+		locationHash:    false
+  });
+});
+
+</script>
+
+
+
+</body>
+</html>
